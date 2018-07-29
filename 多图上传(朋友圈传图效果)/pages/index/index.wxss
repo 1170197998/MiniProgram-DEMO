@@ -1,0 +1,35 @@
+/**index.wxss**/
+
+.container .title {
+  font-size: 34rpx;
+  margin-left: 15rpx;
+  padding-bottom: 20rpx;
+}
+
+.container .imgview {
+  text-align: left;
+  margin-left: 15rpx;
+}
+
+.container .imgview .no-img {
+  width: 230rpx;
+  height: 230rpx;
+  margin-right: 15rpx;
+}
+.container .imgview .sel-img {
+  display: inline-block;
+}
+
+.container .centerBox {
+  text-align: center;
+}
+
+.container .submitBtn {
+  background-color: blueviolet;
+  color: white;
+  font-size: 34rpx;
+  width: 710rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  margin-top: 15rpx;
+}

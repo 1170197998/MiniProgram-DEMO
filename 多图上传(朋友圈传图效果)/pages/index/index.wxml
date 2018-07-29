@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class='title'>请选择图片</view>
+  <view class='imgview'>
+    <block wx:for="{{picsItems}}" wx:key="id">
+      <image class="no-img sel-img" src="{{item.imgurl}}" catchtap='selImagePre'></image>
+    </block>
+    <image hidden='{{isMaxImagesNum}}' class="no-img" catchtap="chooseImageTap" src="../../images/file.png"></image>
+  </view>
+  <view class='centerBox'>
+    <button class='submitBtn' bindtap='submitAction'>提交</button>
+  </view>
+
+</view>
